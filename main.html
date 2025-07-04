@@ -2,41 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Inception - Movie Page</title>
+  <title>Inception - Movie Webpage</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      background-color: #eef1f5;
       margin: 0;
       padding: 0;
     }
     header, nav, section, aside, footer {
       padding: 20px;
-      margin: 10px;
-      background-color: #fff;
-      border-radius: 8px;
+      margin: 15px;
+      background-color: white;
+      border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     header {
       background-color: #1c1c1c;
-      color: white;
+      color: #fff;
       text-align: center;
     }
+    nav {
+      background-color: #333;
+      color: #fff;
+    }
     nav a {
-      margin-right: 20px;
+      color: #00c6ff;
       text-decoration: none;
-      color: #007bff;
+      margin-right: 15px;
+      font-weight: bold;
     }
     nav a:hover {
       text-decoration: underline;
     }
-    section {
-      margin-bottom: 20px;
-    }
     footer {
+      background-color: #1c1c1c;
+      color: #fff;
       text-align: center;
-      background-color: #222;
-      color: white;
     }
   </style>
 </head>
@@ -51,11 +53,7 @@
     <a id="nav-quote" href="#quote">Quote</a>
   </nav>
 
-  <section id="summary">
-    <h2>Summary</h2>
-    <p>"Inception" is a science fiction thriller directed by Christopher Nolan. It follows Dom Cobb, a thief who enters the dreams of others to steal secrets. Tasked with planting an idea into someone’s subconscious, Cobb and his team embark on a complex mission through layered dreams.</p>
-  </section>
-
+  <!-- ✅ SECTION 1 -->
   <section id="actor">
     <h2>Actors</h2>
     <ul>
@@ -67,11 +65,15 @@
     </ul>
   </section>
 
+  <!-- ✅ SECTION 2 -->
   <section id="quote">
     <h2>Favorite Quote</h2>
-    <blockquote>
-      "You mustn't be afraid to dream a little bigger, darling."
-    </blockquote>
+    <p>"You mustn't be afraid to dream a little bigger, darling."</p>
+  </section>
+
+  <section id="summary">
+    <h2>Summary</h2>
+    <p>"Inception" is a science fiction thriller directed by Christopher Nolan. It follows Dom Cobb, a thief who enters the dreams of others to steal secrets. Tasked with planting an idea into someone’s subconscious, Cobb and his team embark on a complex mission through layered dreams.</p>
   </section>
 
   <aside>
@@ -81,9 +83,5 @@
   </aside>
 
   <footer>
-    Produced by: Emma Thomas
-  </footer>
-
-</body>
-</html>
+    Produced by
 
